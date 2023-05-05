@@ -16,7 +16,6 @@ The following technologies will be covered in this course:
 - Node
 - Mongoose
 - Redux
-- [Add more technologies as applicable]
 
 ## Getting Started
 
