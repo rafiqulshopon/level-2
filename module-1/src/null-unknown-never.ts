@@ -8,6 +8,7 @@
 
 // searchName(null);
 
+//  unknown type
 const getMyCarSpeed = (speed: unknown): void => {
   if (typeof speed === 'number') {
     const convertedSpeed = (speed * 1000) / 3600;
@@ -24,3 +25,10 @@ const getMyCarSpeed = (speed: unknown): void => {
 getMyCarSpeed(56);
 getMyCarSpeed('56 KMPH');
 getMyCarSpeed(true);
+
+// never type
+// function throwError(message: string): never {
+//   throw new Error(message);
+// }
+
+// throwError('Error occured!');
